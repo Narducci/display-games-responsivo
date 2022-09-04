@@ -1,98 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
-    --color-green: #38AF90;
-    --color-white: #fff;
-    --color-dark-gray: #797979;
-    --color-light-gray: #F0F0F0;
-    --color-red: #DD7E92;
+  --color-green: #38af90;
+  --color-white: #fff;
+  --color-dark-gray: #797979;
+  --color-light-gray: #f0f0f0;
+  --color-red: #dd7e92;
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
 
 .header-config {
-    height: 90px;
-    background-color: var(--color-green); 
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
+  height: 90px;
+  background-color: var(--color-green);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .nav-limitations {
-    width: 100%;
-    max-width: 990px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-container-brand h1 {
-    margin: 0;
-    display: inline;
-    color: var(--color-white);
-    font-size: 18px;
+  margin: 0;
+  display: inline;
+  color: var(--color-white);
+  font-size: 18px;
 }
 
-
 .main-noticias h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--color-dark-gray);
-    font-size: 24px;
-    margin-top: 40px;
-    margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-dark-gray);
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 8px;
 }
 
 .main-noticias-card {
-    background-color: var(--color-light-gray);
-    border-radius: 8px;
-    padding: 16px 12px;
-    margin: 0 10px;
+  background-color: var(--color-light-gray);
+  border-radius: 8px;
+  padding: 16px 12px;
+  margin: 0 10px;
+  margin-bottom: 28px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main-noticias-card h3 {
-    color: var(--color-green);
-    font-size: 16px;
-    font-weight: 700;
-    margin: 0;
+  color: var(--color-green);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
 }
 
 .main-noticias-card p {
-    color: var(--color-dark-gray);
-    font-size: 12px;
-    font-weight: 700;
-    margin: 0;
+  color: var(--color-dark-gray);
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
 }
 
 .main-data p {
-    color: var(--color-green);
-    font-size: 10px;
-    font-weight: 400;
-    border-top: 1px solid var(--color-green);
-    margin-top: 7px;
-    padding-top: 1px;
+  color: var(--color-green);
+  font-size: 10px;
+  font-weight: 400;
+  border-top: 1px solid var(--color-green);
+  margin-top: 7px;
+  padding-top: 1px;
 }
 
 .main-noticia-description p {
-    color: var(--color-dark-gray);
-    font-size: 10px;
-    font-weight: 400;
-    margin-top: 12px;
+  color: var(--color-dark-gray);
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 12px;
 }
 
-.main-noticia-description a {
-    
-    color: var(--color-red);
-    font-size: 14px;
-    font-weight: 700;
+.ler-mais {
+  margin-top: 14px;
+}
+.ler-mais a {
+  color: var(--color-red);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main-button-carregar-mais {
+  display: flex;
+  justify-content: center;
+}
+.main-button-carregar-mais button {
+  background-color: var(--color-red);
+  color: var(--color-white);
+  width: 224px;
+  height: 67px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.card-games {
+    display: flex;
+    background-color: var(--color-light-gray);
+}
+
+.card-games h2 {
+    color: var(--color-green);
+    font-size: 24px;
+    padding-top: 40px;
+    margin-bottom: 28px;
+}
+
+.card-games-detail h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-games-detail img {
+    width: 300px;
+}
+
+.card-games-detail-position {
+    display: flex;
+    justify-content: center;
 }
